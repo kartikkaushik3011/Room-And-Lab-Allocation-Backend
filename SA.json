@@ -1,0 +1,3839 @@
+{
+  "Raman": {
+    "month": "December",
+    "year": 2024,
+    "seminar1": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "seminar2": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "auditorium": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "KC": {
+    "month": "December",
+    "year": 2024,
+    "seminar1": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "seminar2": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Ramanujan": {
+    "month": "December",
+    "year": 2024,
+    "seminar1": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "seminar2": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Aryabhatta": {
+    "month": "December",
+    "year": 2024,
+    "seminar1": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "seminar2": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Bhabha": {
+    "month": "December",
+    "year": 2024,
+    "seminar1": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ],
+    "seminar2": [
+      {
+        "bookings": [
+          {
+            "date": "2024-12-01",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-02",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-03",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-04",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-05",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-06",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-07",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-08",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-09",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-10",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-11",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-12",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-13",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-14",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-15",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-16",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-17",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-18",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-19",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-20",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-21",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-22",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-23",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-24",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-25",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-26",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-27",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-28",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-29",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-30",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          },
+          {
+            "date": "2024-12-31",
+            "08:30 - 01:30": {
+              "booked_by": null,
+              "purpose": null
+            },
+            "01:30 - 06:00": {
+              "booked_by": null,
+              "purpose": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

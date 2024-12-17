@@ -1,0 +1,1848 @@
+{
+  "Aryabhatta": {
+    "rooms": [
+      {
+        "room_no": "AB307",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shelley Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Jaya Srivastava"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shelley Gupta"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Tripti Pandey"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Tripti Pandey"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Ruchi Jain"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Jaya Srivastava"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "VASV501",
+                "teacher": "Luna Das"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Jaya Srivastava"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Ruchi Jain"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shelley Gupta"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "VASS501",
+                "teacher": "Megha"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Shalini Sharma"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Ruchi Jain"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "AB308",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VASS501",
+                "teacher": "Abriti Thakur"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shaili Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shaili Gupta"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BVS501 ",
+                "teacher": "Ayush Agarwal"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Shalini Singh"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Shalini Singh"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Ayush Agarwal"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "VASV501",
+                "teacher": "Luna Das"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Ayush Agarwal"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Ayush Agarwal"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BVs504",
+                "teacher": "Shaili Gupta"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "AB309",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS054",
+                "teacher": "Shaili Gupta"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "VASV501",
+                "teacher": "Luna Das"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Monica Batra"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS054 ",
+                "teacher": "Shaili Gupta"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS054",
+                "teacher": "Shaili Gupta"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Sarika"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Sarika"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Ayush Agarwal"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Ayush Agarwal"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Anshika Agarwal"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Rashim Rana"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Umesh Bhardwaj"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Ruchi Jain"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS504",
+                "teacher": "Shelley Gupta"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "VASS501",
+                "teacher": "Megha"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anshika Aggarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Ruchi Jain"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "AB310",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS052",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Shalini Sharma"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Harshit Sharma"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VASQ501",
+                "teacher": "Harshit Sharma"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "VASV501",
+                "teacher": "Luna Das"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anurag Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Tripti Pandey"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VACS053",
+                "teacher": "Tripti Pandey"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS052",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anurag Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS502",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "VASS501",
+                "teacher": "Megha"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS052",
+                "teacher": "Nand Kishore Yadav"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anurag Gupta"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Shalini Sharma"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS055",
+                "teacher": "Tripti Pandey"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Shalini Sharma"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS501",
+                "teacher": "Anurag Gupta"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS503",
+                "teacher": "Shalini Sharma"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "room_no": "LAB24",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Shalini Singh"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Shalini Singh"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim Rana"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim Rana"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Jitendra Jindal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Jitendra Jindal"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim rana"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim rana"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anurag Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anurag Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS553",
+                "teacher": "Monica Batra"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "LAB25",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anurag Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anurag Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Sarika"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Sarika"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Jitendra Kr. Chauhan"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Jitendra Kr. Chauhan"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim rana"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim rana"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Shweta Kaushik"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Shweta Kaushik"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Sarika "
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Sarika "
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "09:40 - 10:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim Rana"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Rashim Rana"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Shweta Kaushik"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Shweta Kaushik"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS551",
+                "teacher": "Anshika Agarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS552",
+                "teacher": "Meenakshi Vishnoi"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "LAB26",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Shaili Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Shaili Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Jitendra Jindal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Jitendra Jindal"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Ruchi Jain"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Ruchi Jain"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Aayush Agarwal"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Aayush Agarwal"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS351 ",
+                "teacher": "Nand Kishore Yadav"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Ruchi Jain"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Ruchi Jain"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Jitendra Jindal"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Jitendra Jindal"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "room_no": "LAB27",
+        "days": [
+          {
+            "day": "Monday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Sahil Kr. Aggarwal"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Sahil Kr. Aggarwal"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Tuesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Tanya Gupta"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Wednesday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Bharat Bhardwaj"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Thursday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Shaili Gupta"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS351",
+                "teacher": "Shaili Gupta"
+              },
+              "10:40 - 11:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "12:20 - 01:10": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:00 - 02:50": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Rakesh Ranjan"
+              },
+              "03:40 - 04:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              }
+            }
+          },
+          {
+            "day": "Friday",
+            "slots": {
+              "08:50 - 09:40": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Jitendra Kr. Chauhan"
+              },
+              "09:40 - 10:30": {
+                "status": "Occupied",
+                "subject": "BCS352",
+                "teacher": "Jitendra Kr. Chauhan"
+              },
+              "10:40 - 11:30": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "11:30 - 12:20": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "12:20 - 01:10": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Sanjeev Soni"
+              },
+              "02:00 - 02:50": {
+                "status": "Available",
+                "subject": "N/A",
+                "teacher": "N/A"
+              },
+              "02:50 - 03:40": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Aaysuh agarwal"
+              },
+              "03:40 - 04:30": {
+                "status": "Occupied",
+                "subject": "BCS353",
+                "teacher": "Aayush Agarwal"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
