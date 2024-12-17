@@ -3,6 +3,11 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 const sa = require("./SA.json")
+const cors = require('cors');
+
+const allowedOrigins = ['https://abesroomandlaballocation.netlify.app/'];
+app.use(cors({ origin: allowedOrigins }));
+
 
 const getBlockJson = (block_code) => {
     if (block_code === "ab") {
