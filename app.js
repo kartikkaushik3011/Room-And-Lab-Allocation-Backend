@@ -5,7 +5,7 @@ const fs = require('fs');
 const sa = require("./SA.json")
 const cors = require('cors');
 
-const allowedOrigins = ['https://abesroomandlaballocation.netlify.app'];
+const allowedOrigins = ['https://abesecroomandlaballocation.netlify.app'];
 app.use(cors({ origin: allowedOrigins }));
 
 
