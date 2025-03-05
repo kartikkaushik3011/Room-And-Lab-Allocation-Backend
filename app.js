@@ -1,157 +1,214 @@
 const express = require("express");
+const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
+const cookieParser = require("cookie-parser");
+
+require('dotenv').config();
+
 const app = express();
-const path = require('path');
-const fs = require('fs');
-const sa = require("./SA.json")
-const cors = require('cors');
+app.use(express.json());
+app.use(cookieParser());
 
 const allowedOrigins = ['https://abesecroomandlaballocation.netlify.app'];
-app.use(cors({ origin: allowedOrigins }));
+app.use(cors({
+    origin: allowedOrigins,
+    credentials: true
+}));
 
+const SECRET_KEY = process.env.JWT_SECRET_KEY;
+const USERS_FILE = path.join(__dirname, 'users.json');
+const REQUESTS_FILE = path.join(__dirname, 'requests.json');
 
-const getBlockJson = (block_code) => {
-    if (block_code === "ab") {
-        return require('./AB.json');
-    }
-    if (block_code === "kc") {
-        return require('./KC.json');
-    }
-    if (block_code === "bb") {
-        return require('./BB.json');
-    }
-    if (block_code === "rj") {
-        return require('./RJ.json');
-    }
-    if (block_code === "rm") {
-        return require('./RM.json');
-    }
-    return null;
-}
+const BLOCKS = {
+    ab: "Aryabhatta",
+    kc: "KC",
+    bb: "Bhabha",
+    rm: "Raman",
+    rj: "Ramanujan"
+};
 
-app.use(express.json());
+const getUsers = () => fs.existsSync(USERS_FILE) ? JSON.parse(fs.readFileSync(USERS_FILE, 'utf8')) : [];
+const saveUsers = (users) => fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), 'utf8');
+
+const getRequests = () => fs.existsSync(REQUESTS_FILE) ? JSON.parse(fs.readFileSync(REQUESTS_FILE, 'utf8')) : [];
+const saveRequests = (requests) => fs.writeFileSync(REQUESTS_FILE, JSON.stringify(requests, null, 2), 'utf8');
 
 app.get("/roomData/:block_code", (req, res) => {
-    const block_code = req.params.block_code;
-    const data = getBlockJson(block_code);
-
-    if (data) {
-        res.json(data);
-    } else {
-        res.status(404).send("Block not found");
-    }
+    const data = getBlockJson(req.params.block_code);
+    data ? res.json(data) : res.status(404).send("Block not found");
 });
+
 app.get("/seminarAudiData", (req, res) => {
-    if (sa) {
-        res.json(sa);
-    } else {
-        res.status(404).send("Block not found");
-    }
-})
-
-app.post("/book/:place/:block_code/:room_no/:day/:slot", async (req, res) => {
-    const { block_code, room_no, slot, place, day } = req.params;
-
-    const data = getBlockJson(block_code);
-    if (!data) {
-        return res.status(404).send("Block not found");
-    }
-
-    const blocks = {
-        "ab": "Aryabhatta",
-        "kc": "KC",
-        "bb": "Bhabha",
-        "rm": "Raman",
-        "rj": "Ramanujan"
-    }
-
-    const currBlock = blocks[block_code];
-    const block = data[currBlock];
-    const room = block[place].find(r => r.room_no == room_no);
-    if (!room) {
-        return res.status(404).send("Room not found");
-    }
-
-    const dayData = room.days.find(d => d.day === day);
-    if (!dayData) {
-        return res.status(404).send("Day not found");
-    }
-
-    const slotData = dayData.slots[slot];
-    if (!slotData) {
-        return res.status(404).send("Slot not found");
-    }
-    slotData.status = "Occupied";
-    slotData.subject = req.body.subject_code;
-    slotData.teacher = req.body.faculty_name;
-    const filePath = path.join(__dirname, `${block_code.toUpperCase()}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-
-    res.status(200).json({
-        message: "Room booked successfully",
-        updatedRoomNo: room_no,
-        block_code: block_code,
-        day: day,
-        slot: slot,
-        subject: slotData.subject,
-        teacher: slotData.teacher
-    });
-});
-app.post("/bookSeminar/:block_code/:seminar/:date/:slot", (req, res) => {
-    const { block_code, seminar, date, slot } = req.params;
-    const { faculty_name, purpose } = req.body;
-
-    const blocks = {
-        "ab": "Aryabhatta",
-        "kc": "KC",
-        "bb": "Bhabha",
-        "rm": "Raman",
-        "rj": "Ramanujan"
-    };
-
-    const currBlock = blocks[block_code];
-    if (!currBlock) {
-        return res.status(404).send("Invalid block code.");
-    }
-
     const sa = require("./SA.json");
-    const seminarArray = sa[currBlock]?.[seminar];
-    if (!Array.isArray(seminarArray) || seminarArray.length === 0) {
-        return res.status(404).send("Seminar not found!");
-    }
-
-    const data = seminarArray[0];
-    if (!data || !Array.isArray(data.bookings)) {
-        return res.status(404).send("Bookings data not found!");
-    }
-
-    const seminarData = data.bookings.find(s => s.date === date);
-    if (!seminarData) {
-        return res.status(404).send("Date not found!");
-    }
-
-    const finalData = seminarData[slot];
-    if (!finalData) {
-        return res.status(404).send("Slot not found!");
-    }
-    finalData.booked_by = faculty_name;
-    finalData.purpose = purpose;
-    const fs = require("fs");
-    const path = require("path");
-    const filePath = path.join(__dirname, "SA.json");
-    fs.writeFileSync(filePath, JSON.stringify(sa, null, 2), "utf8");
-
-    res.status(200).json({
-        message: `Venue booked successfully`,
-        block_code,
-        seminar,
-        date,
-        slot,
-        purpose,
-        faculty_name
-    });
+    sa ? res.json(sa) : res.status(404).send("Seminar data not found");
 });
 
-const apiUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3000';
+// Login
+app.post("/login", async (req, res) => {
+    const { username, password } = req.body;
+    const users = getUsers();
+    const user = users.find(u => u.username === username);
 
+    if (!user || !await bcrypt.compare(password, user.password)) {
+        return res.status(401).json({ message: "Invalid credentials" });
+    }
 
-app.listen(3000);
+    const token = jwt.sign({ username, isAdmin: user.isAdmin }, SECRET_KEY, { expiresIn: '2h' });
+
+    res.cookie("authToken", token, {
+        httpOnly: true,
+        sameSite: "None",
+        secure: true,
+        maxAge: 2 * 60 * 60 * 1000 // 2 hours
+    }).json({ message: "Login successful", isAdmin: user.isAdmin });
+});
+
+// Current User (Detect if logged in)
+app.get("/currentUser", (req, res) => {
+    const token = req.cookies.authToken;
+    if (!token) {
+        return res.status(401).json({ message: "Not logged in" });
+    }
+
+    try {
+        const decoded = jwt.verify(token, SECRET_KEY);
+        res.json({ username: decoded.username, isAdmin: decoded.isAdmin });
+    } catch {
+        res.status(403).json({ message: "Invalid or expired token" });
+    }
+});
+
+// Auth Middleware
+const authenticate = (req, res, next) => {
+    const token = req.cookies.authToken;
+    if (!token) return res.status(401).json({ message: "Unauthorized" });
+
+    try {
+        req.user = jwt.verify(token, SECRET_KEY);
+        next();
+    } catch {
+        res.status(403).json({ message: "Invalid or expired token" });
+    }
+};
+
+// Admin-only Middleware
+const authorizeAdmin = (req, res, next) => {
+    if (!req.user.isAdmin) {
+        return res.status(403).json({ message: "Admins only" });
+    }
+    next();
+};
+
+// User-only Middleware
+const authorizeUser = (req, res, next) => {
+    if (req.user.isAdmin) {
+        return res.status(403).json({ message: "Only regular users can make bookings" });
+    }
+    next();
+};
+
+// Signup (default new users are isAdmin: false)
+app.post("/signup", authenticate, authorizeAdmin, async (req, res) => {
+    const { username, password } = req.body;
+    const users = getUsers();
+
+    if (users.some(u => u.username === username)) {
+        return res.status(400).json({ message: "User already exists" });
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+    users.push({ username, password: hashedPassword, isAdmin: false });
+    saveUsers(users);
+
+    res.status(201).json({ message: "User registered successfully" });
+});
+
+// Pending Requests (Admin only)
+app.get("/pendingRequests", authenticate, authorizeAdmin, (req, res) => {
+    res.json(getRequests());
+});
+
+// Approve Request (Admin only)
+app.post("/approveRequest", authenticate, authorizeAdmin, (req, res) => {
+    const { index } = req.body;
+    const requests = getRequests();
+    const request = requests[index];
+
+    if (!request) return res.status(404).send("Request not found");
+
+    applyBooking(request);
+    requests.splice(index, 1);
+    saveRequests(requests);
+
+    res.json({ message: "Request approved." });
+});
+
+// Reject Request (Admin only)
+app.post("/rejectRequest", authenticate, authorizeAdmin, (req, res) => {
+    const { index } = req.body;
+    const requests = getRequests();
+
+    if (!requests[index]) return res.status(404).send("Request not found");
+
+    requests.splice(index, 1);
+    saveRequests(requests);
+
+    res.json({ message: "Request rejected." });
+});
+
+// Booking Requests (User only)
+app.post("/book/:place/:block_code/:room_no/:day/:slot", authenticate, authorizeUser, (req, res) => {
+    const request = { ...req.params, ...req.body, type: "room" };
+    const requests = getRequests();
+    requests.push(request);
+    saveRequests(requests);
+    res.json({ message: "Booking request submitted." });
+});
+
+app.post("/bookSeminar/:block_code/:seminar/:date/:slot", authenticate, authorizeUser, (req, res) => {
+    const request = { ...req.params, ...req.body, type: "seminar" };
+    const requests = getRequests();
+    requests.push(request);
+    saveRequests(requests);
+    res.json({ message: "Seminar booking request submitted." });
+});
+
+// Logout
+app.get("/logout", (req, res) => {
+    res.clearCookie("authToken", { sameSite: "None", secure: true }).json({ message: "Logged out" });
+});
+
+// Helpers
+function applyBooking(request) {
+    if (request.type === "room") {
+        const blockData = getBlockJson(request.block_code);
+        const blockName = BLOCKS[request.block_code];
+        const room = blockData[blockName].rooms.find(r => r.room_no === request.room_no);
+        const dayData = room.days.find(d => d.day === request.day);
+        dayData.slots[request.slot] = {
+            status: "Occupied",
+            subject: request.subject_code,
+            teacher: request.faculty_name
+        };
+        fs.writeFileSync(path.join(__dirname, `${request.block_code.toUpperCase()}.json`), JSON.stringify(blockData, null, 2));
+    } else {
+        const sa = require("./SA.json");
+        const seminar = sa[BLOCKS[request.block_code]][request.seminar][0];
+        const booking = seminar.bookings.find(b => b.date === request.date);
+        booking[request.slot] = { booked_by: request.faculty_name, purpose: request.purpose };
+        fs.writeFileSync(path.join(__dirname, 'SA.json'), JSON.stringify(sa, null, 2));
+    }
+}
+
+function getBlockJson(blockCode) {
+    const filePath = path.join(__dirname, `${blockCode.toUpperCase()}.json`);
+    return fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, 'utf8')) : null;
+}
+
+app.use((req, res) => res.status(404).send("Route not found"));
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))

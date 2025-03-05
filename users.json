@@ -1,0 +1,17 @@
+[
+    {
+      "username": "kartikkaushik3011",
+      "password": "$2b$10$9BJBlZ2zY5kd68XS1Ur7c.sSR9jz8S.tshxkHNLialnVw4NIZ2D2m",
+      "isAdmin": true
+    },
+    {
+      "username": "kartikkaushik30112",
+      "password": "$2b$10$kx5PPBGrVUhtGcuMXzXDLeJOElBBJwnfwsrFxa//7yD9KxulQc43q",
+      "isAdmin": false
+    },
+    {
+      "username": "amanverma",
+      "password": "$2b$10$wOKp0etXd5m8wd.lb0na/ua26QL0/XKt8zeqHztDZdb8X43/0rgva",
+      "isAdmin": false
+    }
+  ]
