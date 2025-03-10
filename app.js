@@ -12,11 +12,25 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
-const allowedOrigins = ['https://abesecroomandlaballocation.netlify.app'];
+const allowedOrigins = [
+    'https://abesecroomandlaballocation.netlify.app'
+];
+
 app.use(cors({
-    origin: allowedOrigins,
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
     credentials: true
 }));
+
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Credentials", "true");
+    next();
+});
 
 const SECRET_KEY = process.env.JWT_SECRET_KEY;
 const USERS_FILE = path.join(__dirname, 'users.json');
@@ -36,17 +50,7 @@ const saveUsers = (users) => fs.writeFileSync(USERS_FILE, JSON.stringify(users, 
 const getRequests = () => fs.existsSync(REQUESTS_FILE) ? JSON.parse(fs.readFileSync(REQUESTS_FILE, 'utf8')) : [];
 const saveRequests = (requests) => fs.writeFileSync(REQUESTS_FILE, JSON.stringify(requests, null, 2), 'utf8');
 
-app.get("/roomData/:block_code", (req, res) => {
-    const data = getBlockJson(req.params.block_code);
-    data ? res.json(data) : res.status(404).send("Block not found");
-});
-
-app.get("/seminarAudiData", (req, res) => {
-    const sa = require("./SA.json");
-    sa ? res.json(sa) : res.status(404).send("Seminar data not found");
-});
-
-// Login
+// Login Route
 app.post("/login", async (req, res) => {
     const { username, password } = req.body;
     const users = getUsers();
@@ -61,12 +65,21 @@ app.post("/login", async (req, res) => {
     res.cookie("authToken", token, {
         httpOnly: true,
         sameSite: "None",
-        secure: true,
+        secure: process.env.NODE_ENV === "production", 
         maxAge: 2 * 60 * 60 * 1000 // 2 hours
     }).json({ message: "Login successful", isAdmin: user.isAdmin });
 });
 
-// Current User (Detect if logged in)
+// Logout Route
+app.get("/logout", (req, res) => {
+    res.clearCookie("authToken", {
+        httpOnly: true,
+        sameSite: "None",
+        secure: process.env.NODE_ENV === "production"
+    }).json({ message: "Logged out" });
+});
+
+// Current User Route
 app.get("/currentUser", (req, res) => {
     const token = req.cookies.authToken;
     if (!token) {
@@ -110,28 +123,22 @@ const authorizeUser = (req, res, next) => {
     next();
 };
 
-// Signup (default new users are isAdmin: false)
-app.post("/signup", authenticate, authorizeAdmin, async (req, res) => {
-    const { username, password } = req.body;
-    const users = getUsers();
-
-    if (users.some(u => u.username === username)) {
-        return res.status(400).json({ message: "User already exists" });
-    }
-
-    const hashedPassword = await bcrypt.hash(password, 10);
-    users.push({ username, password: hashedPassword, isAdmin: false });
-    saveUsers(users);
-
-    res.status(201).json({ message: "User registered successfully" });
+// Room Data Route
+app.get("/roomData/:block_code", (req, res) => {
+    const data = getBlockJson(req.params.block_code);
+    data ? res.json(data) : res.status(404).send("Block not found");
 });
 
-// Pending Requests (Admin only)
-app.get("/pendingRequests", authenticate, authorizeAdmin, (req, res) => {
-    res.json(getRequests());
+// Booking Requests (User only)
+app.post("/book/:place/:block_code/:room_no/:day/:slot", authenticate, authorizeUser, (req, res) => {
+    const request = { ...req.params, ...req.body, type: "room" };
+    const requests = getRequests();
+    requests.push(request);
+    saveRequests(requests);
+    res.json({ message: "Booking request submitted." });
 });
 
-// Approve Request (Admin only)
+// Booking Approvals (Admin only)
 app.post("/approveRequest", authenticate, authorizeAdmin, (req, res) => {
     const { index } = req.body;
     const requests = getRequests();
@@ -157,28 +164,6 @@ app.post("/rejectRequest", authenticate, authorizeAdmin, (req, res) => {
     saveRequests(requests);
 
     res.json({ message: "Request rejected." });
-});
-
-// Booking Requests (User only)
-app.post("/book/:place/:block_code/:room_no/:day/:slot", authenticate, authorizeUser, (req, res) => {
-    const request = { ...req.params, ...req.body, type: "room" };
-    const requests = getRequests();
-    requests.push(request);
-    saveRequests(requests);
-    res.json({ message: "Booking request submitted." });
-});
-
-app.post("/bookSeminar/:block_code/:seminar/:date/:slot", authenticate, authorizeUser, (req, res) => {
-    const request = { ...req.params, ...req.body, type: "seminar" };
-    const requests = getRequests();
-    requests.push(request);
-    saveRequests(requests);
-    res.json({ message: "Seminar booking request submitted." });
-});
-
-// Logout
-app.get("/logout", (req, res) => {
-    res.clearCookie("authToken", { sameSite: "None", secure: true }).json({ message: "Logged out" });
 });
 
 // Helpers
@@ -211,4 +196,4 @@ function getBlockJson(blockCode) {
 app.use((req, res) => res.status(404).send("Route not found"));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
