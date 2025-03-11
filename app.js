@@ -50,7 +50,7 @@ const saveUsers = (users) => fs.writeFileSync(USERS_FILE, JSON.stringify(users, 
 const getRequests = () => fs.existsSync(REQUESTS_FILE) ? JSON.parse(fs.readFileSync(REQUESTS_FILE, 'utf8')) : [];
 const saveRequests = (requests) => fs.writeFileSync(REQUESTS_FILE, JSON.stringify(requests, null, 2), 'utf8');
 
-// Login Route
+//  Login Route
 app.post("/login", async (req, res) => {
     const { username, password } = req.body;
     const users = getUsers();
@@ -70,7 +70,7 @@ app.post("/login", async (req, res) => {
     }).json({ message: "Login successful", isAdmin: user.isAdmin });
 });
 
-// Logout Route
+//  Logout Route
 app.get("/logout", (req, res) => {
     res.clearCookie("authToken", {
         httpOnly: true,
@@ -79,7 +79,7 @@ app.get("/logout", (req, res) => {
     }).json({ message: "Logged out" });
 });
 
-// Current User Route
+//  Current User Route
 app.get("/currentUser", (req, res) => {
     const token = req.cookies.authToken;
     if (!token) {
@@ -94,7 +94,7 @@ app.get("/currentUser", (req, res) => {
     }
 });
 
-// Auth Middleware
+//  Auth Middleware
 const authenticate = (req, res, next) => {
     const token = req.cookies.authToken;
     if (!token) return res.status(401).json({ message: "Unauthorized" });
@@ -107,7 +107,7 @@ const authenticate = (req, res, next) => {
     }
 };
 
-// Admin-only Middleware
+//  Admin-only Middleware
 const authorizeAdmin = (req, res, next) => {
     if (!req.user.isAdmin) {
         return res.status(403).json({ message: "Admins only" });
@@ -115,7 +115,7 @@ const authorizeAdmin = (req, res, next) => {
     next();
 };
 
-// User-only Middleware
+//  User-only Middleware
 const authorizeUser = (req, res, next) => {
     if (req.user.isAdmin) {
         return res.status(403).json({ message: "Only regular users can make bookings" });
@@ -123,13 +123,13 @@ const authorizeUser = (req, res, next) => {
     next();
 };
 
-// Room Data Route
+//  Room Data Route
 app.get("/roomData/:block_code", (req, res) => {
     const data = getBlockJson(req.params.block_code);
     data ? res.json(data) : res.status(404).send("Block not found");
 });
 
-// Booking Requests (User only)
+//  Booking Requests (User only)
 app.post("/book/:place/:block_code/:room_no/:day/:slot", authenticate, authorizeUser, (req, res) => {
     const request = { ...req.params, ...req.body, type: "room" };
     const requests = getRequests();
@@ -138,7 +138,13 @@ app.post("/book/:place/:block_code/:room_no/:day/:slot", authenticate, authorize
     res.json({ message: "Booking request submitted." });
 });
 
-// Booking Approvals (Admin only)
+//  ✔️ PENDING REQUESTS (ADDED BACK)
+app.get("/pendingRequests", authenticate, authorizeAdmin, (req, res) => {
+    const requests = getRequests();
+    res.json(requests);
+});
+
+//  Approve Booking Request
 app.post("/approveRequest", authenticate, authorizeAdmin, (req, res) => {
     const { index } = req.body;
     const requests = getRequests();
@@ -153,7 +159,7 @@ app.post("/approveRequest", authenticate, authorizeAdmin, (req, res) => {
     res.json({ message: "Request approved." });
 });
 
-// Reject Request (Admin only)
+//  Reject Booking Request
 app.post("/rejectRequest", authenticate, authorizeAdmin, (req, res) => {
     const { index } = req.body;
     const requests = getRequests();
@@ -166,26 +172,18 @@ app.post("/rejectRequest", authenticate, authorizeAdmin, (req, res) => {
     res.json({ message: "Request rejected." });
 });
 
-// Helpers
+//  Helper Function to Apply Booking
 function applyBooking(request) {
-    if (request.type === "room") {
-        const blockData = getBlockJson(request.block_code);
-        const blockName = BLOCKS[request.block_code];
-        const room = blockData[blockName].rooms.find(r => r.room_no === request.room_no);
-        const dayData = room.days.find(d => d.day === request.day);
-        dayData.slots[request.slot] = {
-            status: "Occupied",
-            subject: request.subject_code,
-            teacher: request.faculty_name
-        };
-        fs.writeFileSync(path.join(__dirname, `${request.block_code.toUpperCase()}.json`), JSON.stringify(blockData, null, 2));
-    } else {
-        const sa = require("./SA.json");
-        const seminar = sa[BLOCKS[request.block_code]][request.seminar][0];
-        const booking = seminar.bookings.find(b => b.date === request.date);
-        booking[request.slot] = { booked_by: request.faculty_name, purpose: request.purpose };
-        fs.writeFileSync(path.join(__dirname, 'SA.json'), JSON.stringify(sa, null, 2));
-    }
+    const blockData = getBlockJson(request.block_code);
+    const blockName = BLOCKS[request.block_code];
+    const room = blockData[blockName].rooms.find(r => r.room_no === request.room_no);
+    const dayData = room.days.find(d => d.day === request.day);
+    dayData.slots[request.slot] = {
+        status: "Occupied",
+        subject: request.subject_code,
+        teacher: request.faculty_name
+    };
+    fs.writeFileSync(path.join(__dirname, `${request.block_code.toUpperCase()}.json`), JSON.stringify(blockData, null, 2));
 }
 
 function getBlockJson(blockCode) {
